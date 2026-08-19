@@ -56,6 +56,11 @@ a { color: inherit; }
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.wordmark img {
+  width: 300px;
+}
+
 .site-nav a {
   text-decoration: none;
   margin-left: 24px;
