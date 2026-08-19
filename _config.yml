@@ -2,8 +2,11 @@ title: "Your Name — Photography"
 description: "Photography portfolio and journal."
 author: "Your Name"
 email: "you@example.com"
-url: "" # e.g. https://www.yourdomain.com — leave blank until you add a custom domain
-baseurl: "" # leave blank if using a custom domain; set to "/repo-name" if using the default github.io URL
+# url: "" # e.g. https://www.yourdomain.com — leave blank until you add a custom domain
+# baseurl: "" # leave blank if using a custom domain; set to "/repo-name" if using the default 
+url: "https://moosepic.github.io"
+baseurl: "/portfolio"
+github.io URL
 
 # Collections
 collections:
