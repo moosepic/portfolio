@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-<section class="wrap narrow" style="padding: 60px 0 100px;">
+<section class="wrap narrow" style="padding: 60px 0 100px;" markdown="1">
   <p class="eyebrow">About</p>
   <h1>Daniel Piccolo</h1>
 
@@ -12,5 +12,5 @@ permalink: /about/
 
   This file is plain Markdown — edit the text directly, no HTML required.
 
-  <strong>Contact:</strong> danpiccolo@gmail.com
+  **Contact:** danpiccolo@gmail.com
 </section>
