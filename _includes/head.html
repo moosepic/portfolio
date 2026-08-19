@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+
+<!-- Opt-out signals for AI crawlers/scrapers. Not legally binding and not
+     universally honored, but respected by major compliant crawlers
+     (see robots.txt for the crawler-level blocks). -->
+<meta name="robots" content="noimageai, noai">
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="icon" href="data:,">
+{% feed_meta %}

@@ -1,0 +1,37 @@
+title: "Your Name — Photography"
+description: "Photography portfolio and journal."
+author: "Your Name"
+email: "you@example.com"
+url: "" # e.g. https://www.yourdomain.com — leave blank until you add a custom domain
+baseurl: "" # leave blank if using a custom domain; set to "/repo-name" if using the default github.io URL
+
+# Collections
+collections:
+  galleries:
+    output: true
+    permalink: /portfolio/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "galleries"
+    values:
+      layout: "gallery"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - scripts
+  - README.md
+  - Gemfile
+  - Gemfile.lock
