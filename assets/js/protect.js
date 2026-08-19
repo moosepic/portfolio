@@ -9,6 +9,8 @@
  *      or screen-recording of the enlarged view carries the watermark too.
  *   3. Serves web-sized images only (see README) rather than your originals,
  *      so even a successful "save" only nets a small, watermarked file.
+ *   4. Reveals large galleries in batches ("Load more") so page weight
+ *      scales with what's actually been viewed, not the whole set at once.
  */
 
 (function () {
@@ -21,7 +23,42 @@
   });
 })();
 
-// 2 & 3. Lightbox with canvas watermarking (only runs on gallery pages).
+// Load more: reveal thumbnails in batches instead of rendering a huge
+// contact sheet in one go. Hidden frames use display:none, so their
+// loading="lazy" <img> doesn't fetch until they're revealed — keeps a
+// 100+ photo gallery light on first load.
+(function () {
+  var sheet = document.getElementById('contactSheet');
+  var btn = document.getElementById('loadMoreBtn');
+  if (!sheet || !btn) return;
+
+  var batchSize = parseInt(sheet.dataset.batchSize, 10) || 24;
+  var frames = Array.prototype.slice.call(sheet.querySelectorAll('.frame'));
+  var shown = batchSize;
+
+  function apply() {
+    frames.forEach(function (frame, i) {
+      frame.classList.toggle('is-more-hidden', i >= shown);
+    });
+    var remaining = frames.length - shown;
+    if (remaining > 0) {
+      btn.hidden = false;
+      document.getElementById('loadMoreCount').textContent =
+        '(' + remaining + ' more)';
+    } else {
+      btn.hidden = true;
+    }
+  }
+
+  btn.addEventListener('click', function () {
+    shown += batchSize;
+    apply();
+  });
+
+  if (frames.length > batchSize) apply();
+})();
+
+// Lightbox with canvas watermarking (only runs on gallery pages).
 (function () {
   var images = window.GALLERY_IMAGES;
   if (!images || !images.length) return;

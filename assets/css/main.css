@@ -203,6 +203,30 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
 }
 
 /* ---------------------------------------------------------------
+   Load more (contact sheet pagination)
+------------------------------------------------------------------*/
+.frame.is-more-hidden { display: none; }
+.load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin: -50px 0 90px;
+}
+.load-more-btn {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: none;
+  color: var(--paper-dim);
+  border: 1px solid var(--rule);
+  padding: 12px 22px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.load-more-btn:hover, .load-more-btn:focus-visible { border-color: var(--accent); color: var(--accent); }
+.load-more-btn[hidden] { display: none; }
+
+/* ---------------------------------------------------------------
    Lightbox
 ------------------------------------------------------------------*/
 .lightbox {

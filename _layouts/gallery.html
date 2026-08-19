@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   {% if page.description %}<p class="gallery-description">{{ page.description }}</p>{% endif %}
 
-  <div class="contact-sheet" data-gallery="{{ page.title | slugify }}">
+  <div class="contact-sheet" data-gallery="{{ page.title | slugify }}" id="contactSheet" data-batch-size="24">
     {% for img in page.images %}
     <button type="button"
             class="frame"
@@ -18,6 +18,12 @@ layout: default
       <img src="{{ img.file | relative_url }}" alt="{{ img.alt | default: img.caption }}" loading="lazy" draggable="false">
     </button>
     {% endfor %}
+  </div>
+
+  <div class="load-more-wrap">
+    <button type="button" id="loadMoreBtn" class="load-more-btn" hidden>
+      Load more <span id="loadMoreCount"></span>
+    </button>
   </div>
 </article>
 
