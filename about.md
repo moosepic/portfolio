@@ -3,10 +3,10 @@ layout: default
 title: About
 permalink: /about/
 ---
-<section class="wrap narrow" style="padding: 60px 0 100px;" markdown="1">
+<section class="about wrap narrow" markdown="1">
   <p class="eyebrow">About</p>
   <h1>Daniel Piccolo</h1>
-  <img src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Doing my best Jamiroquai (photo taken my by son)" style="width: 100%; max-width: 360px; margin: 20px 0;">
+  <img class="about-portrait" src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Doing my best Jamiroquai (photo taken by my son)">
 
 I am purely an amateur photographer. I have a BFA but it was in Painting, not photography. I take lots of pictures, and while I do have real cameras, I find that the best camera is the camera I have on me: so frequently, my iPhone, and I enjoy pushing the limitations of it. I also use [Shiftcam](http://www.shiftcam.com) lenses and grips for the phone. I find it very handy, and am really fond of my macro lens...
 
