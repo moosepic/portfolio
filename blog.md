@@ -3,7 +3,7 @@ layout: default
 title: Journal
 permalink: /blog/
 ---
-<section class="wrap">
+<section class="wrap narrow">
   <p class="eyebrow">Journal</p>
   <h1>Notes from the field</h1>
 
