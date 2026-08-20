@@ -75,12 +75,24 @@ a { color: inherit; }
 }
 .site-nav a:hover, .site-nav a:focus-visible { color: var(--paper); border-color: var(--accent); }
 
+
+/* ---------------------------------------------------------------
+   Main
+------------------------------------------------------------------*/
+main {
+  background-image: url("../images/layout/crowd_of_feet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 /* ---------------------------------------------------------------
    Footer
 ------------------------------------------------------------------*/
 .site-footer {
   border-top: 1px solid var(--rule);
-  margin-top: 80px;
+  margin-top: 0px;
   padding: 24px 0 60px;
   color: var(--paper-dim);
   font-family: var(--font-mono);
@@ -113,7 +125,8 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
   border-bottom: 1px solid var(--rule);
 }
 .hero h1 { max-width: 14ch; }
-.hero p { color: var(--paper-dim); max-width: 50ch; font-size: 1.1rem; line-height: 1.6; }
+/* .hero p { color: var(--paper-dim); max-width: 50ch; font-size: 1.1rem; line-height: 1.6; } */
+.hero p {color:#121214; max-width: 50ch; font-size: 1.1rem; line-height: 1.6; }
 .home-links { margin-top: 28px; display: flex; gap: 20px; }
 .home-links a {
   font-family: var(--font-mono);
@@ -124,6 +137,7 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
   border: 1px solid var(--rule);
   padding: 10px 16px;
   transition: border-color 0.15s, color 0.15s;
+  background-color: #121214;
 }
 .home-links a:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -326,16 +340,6 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
   font-size: 0.72rem;
   letter-spacing: 0.02em;
   line-height: 1.4;
-}
-
-/* ---------------------------------------------------------------
-   Main
-------------------------------------------------------------------*/
-main {
-  background-image: url("../images/layout/crowd_of_feet.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 /* ---------------------------------------------------------------
