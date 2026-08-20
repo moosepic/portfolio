@@ -11,8 +11,6 @@
  *      so even a successful "save" only nets a small, watermarked file.
  *   4. Reveals large galleries in batches ("Load more") so page weight
  *      scales with what's actually been viewed, not the whole set at once.
- *   5. Detects each thumbnail's real orientation so portrait photos get a
- *      2:3 box instead of being cropped into a landscape 3:2 frame.
  */
 
 (function () {
@@ -22,23 +20,6 @@
   });
   document.addEventListener('dragstart', function (e) {
     if (e.target.tagName === 'IMG' || e.target.tagName === 'CANVAS') e.preventDefault();
-  });
-})();
-
-// Orientation-aware thumbnails: landscape photos sit in a 3:2 box (the
-// contact-sheet default), portrait photos get a 2:3 box instead — detected
-// from each image's real dimensions once it loads, so no manual tagging is
-// needed per photo. object-fit: cover still applies within whichever box,
-// so a photo is very rarely cropped at all, just contained properly.
-(function () {
-  document.querySelectorAll('.frame img').forEach(function (img) {
-    function setOrientation() {
-      if (img.naturalWidth && img.naturalHeight && img.naturalHeight > img.naturalWidth) {
-        img.closest('.frame').classList.add('is-portrait');
-      }
-    }
-    if (img.complete && img.naturalWidth) setOrientation();
-    else img.addEventListener('load', setOrientation);
   });
 })();
 
