@@ -114,8 +114,9 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
 .eyebrow a { text-decoration: none; color: var(--paper-dim); }
 .eyebrow a:hover { color: var(--accent); }
 .meta { color: var(--paper-dim); font-family: var(--font-mono); font-size: 0.8rem; }
-.gallery-description, .post-body p { color: var(--paper-dim); line-height: 1.7; font-size: 1.05rem; max-width: 60ch; }
-.post-body p { color: var(--paper); }
+.gallery-description, .about-copy p, .post-body p { line-height: 1.7; font-size: 1.05rem; }
+.gallery-description { color: var(--paper-dim); max-width: 60ch; }
+.about-copy p, .post-body p { color: var(--paper); }
 
 /* ---------------------------------------------------------------
    Home
@@ -313,8 +314,8 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
 .post-list-excerpt {
   margin: 8px 0 0;
   color: var(--paper-dim);
-  font-size: 0.92rem;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  line-height: 1.7;
   max-width: 60ch;
 }
 /* ---------------------------------------------------------------
@@ -327,11 +328,6 @@ h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin: 8px 0 6px; }
   content: "";
   display: block;
   clear: both;
-}
-.about p {
-  color: var(--paper);
-  line-height: 1.7;
-  font-size: 1.05rem;
 }
 .about-portrait {
   float: right;
