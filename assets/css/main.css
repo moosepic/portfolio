@@ -79,7 +79,7 @@ a { color: inherit; }
 /* ---------------------------------------------------------------
    Main
 ------------------------------------------------------------------*/
-section.splash {
+main.splash {
   background-image: url("../images/layout/crowd_of_feet.jpg");
   background-repeat: no-repeat;
   background-size: cover;
