@@ -4,9 +4,9 @@
  * person (devtools, screenshots, and screen recording all still work — no
  * client-side JS can prevent that). What this DOES do:
  *   1. Removes the trivial "right click > Save Image As" path site-wide.
- *   2. Renders the enlarged lightbox image onto a <canvas> with a tiled
- *      watermark burned into the pixels at render time, so any screenshot
- *      or screen-recording of the enlarged view carries the watermark too.
+ *   2. Renders the enlarged lightbox image onto a <canvas> with your logo
+ *      drawn into the bottom-right corner at render time, so any screenshot
+ *      or screen-recording of the enlarged view carries the mark too.
  *   3. Serves web-sized images only (see README) rather than your originals,
  *      so even a successful "save" only nets a small, watermarked file.
  *   4. Reveals large galleries in batches ("Load more") so page weight
@@ -91,23 +91,28 @@
   var ctx = canvas.getContext('2d');
   var current = 0;
 
-  function drawWatermark(w, h) {
-    var text = '\u00A9 ' + (window.WATERMARK_TEXT || '');
+  // Preload the logo once. It's tiny (a PNG), so this is normally ready
+  // well before anyone opens the lightbox — the "logoReady" guard below
+  // just covers the rare case someone opens it before the logo finishes.
+  var logo = new Image();
+  var logoReady = false;
+  logo.crossOrigin = 'anonymous';
+  logo.onload = function () {
+    logoReady = true;
+    render(current); // redraw current frame in case it rendered before the logo was ready
+  };
+  if (window.WATERMARK_LOGO) logo.src = window.WATERMARK_LOGO;
+
+  function drawLogo(w, h) {
+    if (!logoReady) return;
+    var targetWidth = w * 0.14; // logo scales to ~14% of the image's width
+    var scale = targetWidth / logo.naturalWidth;
+    var lw = logo.naturalWidth * scale;
+    var lh = logo.naturalHeight * scale;
+    var margin = w * 0.03;
     ctx.save();
-    ctx.globalAlpha = 0.16;
-    ctx.fillStyle = '#ffffff';
-    ctx.font = Math.max(14, Math.round(w / 38)) + 'px "SFMono-Regular", Menlo, monospace';
-    ctx.textBaseline = 'middle';
-    var stepX = ctx.measureText(text).width + 60;
-    var stepY = Math.max(60, w / 10);
-    ctx.translate(w / 2, h / 2);
-    ctx.rotate(-Math.PI / 8);
-    ctx.translate(-w / 2, -h / 2);
-    for (var y = -h; y < h * 2; y += stepY) {
-      for (var x = -w; x < w * 2; x += stepX) {
-        ctx.fillText(text, x, y);
-      }
-    }
+    ctx.globalAlpha = 0.85;
+    ctx.drawImage(logo, w - lw - margin, h - lh - margin, lw, lh);
     ctx.restore();
   }
 
@@ -120,7 +125,7 @@
       canvas.width = img.naturalWidth;
       canvas.height = img.naturalHeight;
       ctx.drawImage(img, 0, 0);
-      drawWatermark(canvas.width, canvas.height);
+      drawLogo(canvas.width, canvas.height);
     };
     img.src = entry.src;
     caption.textContent = entry.caption + '  ·  ' + (current + 1) + ' / ' + images.length;
