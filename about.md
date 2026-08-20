@@ -12,7 +12,7 @@ permalink: /about/
   </figure>
   <div class="about-copy" markdown="1">
 
-I am purely an amateur photographer. I have a BFA but it was in Painting, not photography. I take lots of pictures, and while I do have real cameras, I find that the best camera is the camera I have on me: so frequently, my iPhone, and I enjoy pushing the limitations of it. I also use [Shiftcam](http://www.shiftcam.com) lenses and grips for the phone. I find it very handy, and am really fond of my macro lens...
+I am purely an amateur photographer. I have a BFA but it was in Painting, not photography. I take lots of pictures, and while I do have a real camera (currently a Camera M3 with a variety of lenses), I find that the best camera is the camera I have on me: so frequently, my iPhone, and I enjoy pushing the limitations of it. I also use [Shiftcam](http://www.shiftcam.com) lenses and grips for the phone. I find it very handy, and am really fond of my macro lens...
 
 When I take pictures for ME, in order to be creative, I am usually drawn into things because of texture. That is what really seems to catch my eye: rust, cracked paint, driftwood, weathered wood, stuff like that. Stuff I stumble upon usually. Natural colours and perspective. Minimalism. Abstraction. Trying to capture that stuff is what drives me.
 
