@@ -1,6 +1,6 @@
 ---
-title: "Coastal Light"
-description: "Early-morning and golden-hour work along the shoreline."
+title: "Up close and personal"
+description: "I do like macro shots..."
 order: 12
 cover: /assets/images/galleries/macro/07.jpg
 images:

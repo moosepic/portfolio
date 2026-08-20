@@ -47,6 +47,6 @@ images:
     alt: "Happiest Place on Earth"
     caption: "Happiest Place on Earth"
   - file: /assets/images/galleries/urban/09.jpg
-    alt: "Stephen's Green"
-    caption: "Stephen's Green"
+    alt: "Stephen\'s Green"
+    caption: "Stephen\'s Green"
 ---

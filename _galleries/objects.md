@@ -36,7 +36,7 @@ images:
     caption: "This little light of mine"
   - file: /assets/images/galleries/objects/16.jpg
     alt: "I'm gonna let it shine"
-    caption: "I'm gonna let it shine"
+    caption: "I\'m gonna let it shine"
   - file: /assets/images/galleries/objects/17.jpg
     alt: "Put a ring on it"
     caption: "Put a ring on it"
