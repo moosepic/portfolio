@@ -5,8 +5,8 @@ order: 11
 cover: /assets/images/galleries/animals/03.jpg
 images:
   - file: /assets/images/galleries/animals/01.jpg
-    alt: "Sh*tter\'s Full"
-    caption: "Sh*tter\'s Full"
+    alt: "Sh*tter's Full"
+    caption: "Sh*tter's Full"
   - file: /assets/images/galleries/animals/04.jpg
     alt: "I got my eye on you"
     caption: "I got my eye on you"
@@ -20,14 +20,14 @@ images:
     alt: "Dog Butt as Vermer Painting"
     caption: "Dog Butt as Vermer Painting"
   - file: /assets/images/galleries/animals/08.jpg
-    alt: "Wise ol\' Turtle"
-    caption: "Wise ol\' Turtle"
+    alt: "Wise ol' Turtle"
+    caption: "Wise ol' Turtle"
   - file: /assets/images/galleries/animals/09.jpg
     alt: "Cheeky Monkey"
     caption: "Cheeky Monkey"
   - file: /assets/images/galleries/animals/10.jpg
-    alt: "Dad, he\'s using me as a pillow!!"
-    caption: "Dad, he\'s using me as a pillow!!"
+    alt: "Dad, he's using me as a pillow!!"
+    caption: "Dad, he's using me as a pillow!!"
   - file: /assets/images/galleries/animals/11.jpg
     alt: "Campaign Poster"
     caption: "Campaign Poster"
@@ -35,6 +35,6 @@ images:
     alt: "Convict"
     caption: "Convict"
   - file: /assets/images/galleries/animals/03.jpg
-    alt: "It\'s a shame about Ray"
-    caption: "It\'s a shame about Ray"
+    alt: "It's a shame about Ray"
+    caption: "It's a shame about Ray"
 ---

@@ -5,8 +5,8 @@ order: 15
 cover: /assets/images/galleries/portraits/02.jpg
 images:
   - file: /assets/images/galleries/portraits/04.jpg
-    alt: "Don\'t think you\'ll need that raincoat"
-    caption: "Don\'t think you\'ll need that raincoat"
+    alt: "Don't think you'll need that raincoat"
+    caption: "Don't think you'll need that raincoat"
   - file: /assets/images/galleries/portraits/05.jpg
     alt: "Big Ben and some other guy"
     caption: "Big Ben and some other guy"
@@ -20,8 +20,8 @@ images:
     alt: "Appreciation of the Arts"
     caption: "Appreciation of the Arts"
   - file: /assets/images/galleries/portraits/02.jpg
-    alt: "She\'s gonna break hearts"
-    caption: "She\'s gonna break hearts"
+    alt: "She's gonna break hearts"
+    caption: "She's gonna break hearts"
   - file: /assets/images/galleries/portraits/17.jpg
     alt: "She took my heart"
     caption: "She took my heart"
