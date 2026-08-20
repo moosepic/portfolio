@@ -13,9 +13,9 @@ layout: default
             data-full="{{ img.file | relative_url }}"
             data-caption="{{ img.caption | escape }}"
             data-index="{{ forloop.index0 }}"
-            aria-label="Open image {{ forloop.index }} of {{ page.images.size }}: {{ img.caption }}">
+            aria-label="Open image {{ forloop.index }} of {{ page.images.size }}: {{ img.caption | escape }}">
       <span class="frame-number">No. {{ forloop.index }}</span>
-      <img src="{{ img.file | relative_url }}" alt="{{ img.alt | default: img.caption }}" loading="lazy" draggable="false">
+      <img src="{{ img.file | relative_url }}" alt="{{ img.alt | default: img.caption | escape }}" loading="lazy" draggable="false">
     </button>
     {% endfor %}
   </div>
@@ -42,7 +42,7 @@ layout: default
 <script>
   window.GALLERY_IMAGES = [
     {% for img in page.images %}
-    { src: "{{ img.file | relative_url }}", caption: "{{ img.caption | escape }}" }{% unless forloop.last %},{% endunless %}
+    { src: {{ img.file | relative_url | jsonify }}, caption: {{ img.caption | jsonify }} }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
   window.WATERMARK_LOGO = "{{ '/assets/images/camera-logo-stacked-transparent-white.png' | relative_url }}";
