@@ -1,7 +1,7 @@
 ---
 title: "Lions and Bears o' My"
 description: "That's a lie. There are no lions and bears here."
-order: 11
+order: 15
 cover: /assets/images/galleries/animals/03.jpg
 images:
   - file: /assets/images/galleries/animals/01.jpg
@@ -37,4 +37,16 @@ images:
   - file: /assets/images/galleries/animals/03.jpg
     alt: "It's a shame about Ray"
     caption: "It's a shame about Ray"
+  - file: /assets/images/galleries/animals/13.jpg
+    alt: "Learning to Fly"
+    caption: "Learning to Fly"
+  - file: /assets/images/galleries/animals/12.jpg
+    alt: "Non-Ninja Turtle"
+    caption: "Non-Ninja Turtle"
+  - file: /assets/images/galleries/animals/14.jpg
+    alt: "Got My Eye on You"
+    caption: "Got My Eye on You"
+  - file: /assets/images/galleries/animals/15.jpg
+    alt: "Yeah Baby, Right there"
+    caption: "Yeah Baby, Right there"
 ---

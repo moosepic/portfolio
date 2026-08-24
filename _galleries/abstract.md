@@ -1,7 +1,7 @@
 ---
 title: "Abstract All the Time!"
 description: "Abstract images, that just caught my eye. I'm a weirdo. I have a lot, so this is just a sample."
-order: 21
+order: 23
 cover: /assets/images/galleries/abstract/13.jpg
 images:
   - file: /assets/images/galleries/abstract/01.jpg
@@ -67,4 +67,10 @@ images:
   - file: /assets/images/galleries/abstract/13.jpg
     alt: "Shades of Black"
     caption: "Shades of Black"
+  - file: /assets/images/galleries/abstract/22.jpg
+    alt: "Sand Meets Water"
+    caption: "Sand Meets Water"
+  - file: /assets/images/galleries/abstract/23.jpg
+    alt: "After the Waves"
+    caption: "After the Waves"
 ---

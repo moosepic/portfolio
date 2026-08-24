@@ -1,7 +1,7 @@
 ---
 title: "Objects, Re-imagined"
 description: "Normal, everyday objects in a different light. I have lots, this is just a sample"
-order: 18
+order: 23
 cover: /assets/images/galleries/objects/24.jpg
 images:
   - file: /assets/images/galleries/objects/01.jpg
@@ -58,4 +58,19 @@ images:
   - file: /assets/images/galleries/objects/33.jpg
     alt: "Thimble full"
     caption: "Thimble full"
+  - file: /assets/images/galleries/objects/34.jpg
+    alt: "Pinned"
+    caption: "Pinned"
+  - file: /assets/images/galleries/objects/35.jpg
+    alt: "Sand Emoji"
+    caption: "Sand Emoji"
+  - file: /assets/images/galleries/objects/36.jpg
+    alt: "Spooled"
+    caption: "Spooled"
+  - file: /assets/images/galleries/objects/37.jpg
+    alt: "Locked tight"
+    caption: "Locked tight"
+  - file: /assets/images/galleries/objects/38.jpg
+    alt: "Drip"
+    caption: "Drip"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Portraits"
 description: "Some portraiture. Usually candid, or silly. Definitely NOT boudoir. Got more, just a sample"
-order: 15
+order: 22
 cover: /assets/images/galleries/portraits/02.jpg
 images:
   - file: /assets/images/galleries/portraits/04.jpg
@@ -49,4 +49,25 @@ images:
   - file: /assets/images/galleries/portraits/13.jpg
     alt: "Ghost girl!"
     caption: "Ghost girl!"
+  - file: /assets/images/galleries/portraits/30.jpg
+    alt: "Make a Wish"
+    caption: "Make a Wish"
+  - file: /assets/images/galleries/portraits/28.jpg
+    alt: "I feel threatened (by the weather)"
+    caption: "I feel threatened (by the weather)"
+  - file: /assets/images/galleries/portraits/24.jpg
+    alt: "Golden"
+    caption: "Golden"
+  - file: /assets/images/galleries/portraits/31.jpg
+    alt: "Surly"
+    caption: "Surly"
+  - file: /assets/images/galleries/portraits/29.jpg
+    alt: "2 Places at Once"
+    caption: "2 Places at Once"
+  - file: /assets/images/galleries/portraits/27.jpg
+    alt: "Sleepin' Beauty"
+    caption: "Sleepin' Beauty"
+  - file: /assets/images/galleries/portraits/26.jpg
+    alt: "Sisters"
+    caption: "Sisters"
 ---
