@@ -17,6 +17,7 @@ Example:
 """
 import argparse
 import os
+import re
 import sys
 
 try:
@@ -25,6 +26,21 @@ except ImportError:
     sys.exit("Pillow is required: pip install pillow --break-system-packages")
 
 MAX_LONG_EDGE = 2000  # px — plenty sharp for on-screen viewing, well below print/resale quality
+
+NUMBERED_NAME_RE = re.compile(r"^(\d+)\.jpg$", re.IGNORECASE)
+
+
+def next_start_number(output_dir):
+    """Look at existing NN.jpg files already in output_dir and return the
+    next free number, so new images get appended rather than re-sequencing
+    everything from scratch."""
+    highest = 0
+    if os.path.isdir(output_dir):
+        for fname in os.listdir(output_dir):
+            m = NUMBERED_NAME_RE.match(fname)
+            if m:
+                highest = max(highest, int(m.group(1)))
+    return highest + 1
 
 
 def strip_metadata_and_resize(img):
@@ -58,6 +74,9 @@ def main():
     ap.add_argument("output_dir")
     ap.add_argument("--logo", default=None, help="Path to a transparent PNG logo to stamp into the bottom-right corner; omit to skip watermarking")
     ap.add_argument("--quality", type=int, default=85)
+    ap.add_argument("--restart", action="store_true",
+                     help="Ignore existing NN.jpg files in output_dir and renumber from 01 "
+                          "(old behavior). Default is to append after the highest existing number.")
     args = ap.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)
@@ -66,7 +85,11 @@ def main():
     if not files:
         sys.exit(f"No images found in {args.input_dir}")
 
-    for i, fname in enumerate(files, start=1):
+    start = 1 if args.restart else next_start_number(args.output_dir)
+    if start > 1:
+        print(f"Existing numbered images found in {args.output_dir}; appending starting at {start:02d}.jpg")
+
+    for i, fname in enumerate(files, start=start):
         path = os.path.join(args.input_dir, fname)
         img = Image.open(path)
         img = strip_metadata_and_resize(img)
