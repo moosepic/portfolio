@@ -1,0 +1,9 @@
+# Each entry here becomes ONE card on /portfolio/, representing a whole
+# category of sub-galleries rather than a single gallery. Add a group here,
+# then give each sub-gallery in _galleries/<slug>/ a matching `group: <slug>`
+# front-matter field so it gets pulled into that category's hub page.
+- slug: travel
+  title: Travel Shots
+  cover: /assets/images/galleries/travel/jamaica/01.jpg
+  description: "We travel a lot as a family. The joys of dual incomes and low housing costs where we are. That said, we pay for it by limited flight availability, lots of connections, and a 4 hour drive to the nearest airport...."
+  order: 3

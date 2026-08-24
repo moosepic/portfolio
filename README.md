@@ -58,17 +58,62 @@ images:
 
 It appears on `/portfolio/` automatically. `order` controls sort position.
 
+### 3a. Grouping galleries into a category (sub-galleries)
+
+For a category like "Travel" split into one gallery per location:
+
+1. Put each sub-gallery in a subfolder: `_galleries/travel/paris.md`,
+   `_galleries/travel/tokyo.md`, etc. — the folder path becomes part of the
+   URL automatically (`/portfolio/travel/paris/`).
+2. Give each of those files a `group: travel` field in its front matter
+   (see the `paris.md` / `tokyo.md` examples already in the repo).
+3. Add one entry for the whole category to `_data/gallery_groups.yml`:
+
+```yaml
+- slug: travel
+  title: Travel
+  cover: /assets/images/galleries/travel/paris/01.jpg
+  description: "Photographs from the road, organized by location."
+  order: 3
+```
+
+4. Create the category's hub page — copy `portfolio-travel.md` as a
+   template:
+
+```yaml
+---
+layout: gallery-group
+title: Travel
+group_slug: travel
+permalink: /portfolio/travel/
+description: "Photographs from the road, organized by location."
+---
+```
+
+Once that's in place: `/portfolio/` shows one "Travel" card (linking to the
+hub page), the hub page at `/portfolio/travel/` lists every location as its
+own card, and each location is a full gallery page exactly like any other.
+Galleries without a `group` field keep showing individually on `/portfolio/`
+as before — the two systems coexist.
+
 ## 4. Preparing images (resize + watermark)
 
 ```bash
 pip install pillow --break-system-packages
-python3 scripts/prepare_images.py ~/Photos/my-shoot assets/images/galleries/your-gallery-name --watermark "Your Name"
+python3 scripts/prepare_images.py ~/Photos/my-shoot assets/images/galleries/your-gallery-name --logo assets/images/logo.png
 ```
 
 This resizes to a web-appropriate resolution, strips EXIF/GPS metadata, and
-tiles a faint visible watermark into the pixels. It renames files `01.jpg`,
-`02.jpg`... in the order it finds them — match those names in the gallery's
-front matter. Omit `--watermark` if you don't want a visible mark baked in.
+stamps your logo (a transparent PNG) into the bottom-right corner, scaled
+proportionally to each image's width (~14%, with a small margin). It renames
+files `01.jpg`, `02.jpg`... in the order it finds them — match those names
+in the gallery's front matter. Omit `--logo` if you don't want a mark baked
+in for a particular batch.
+
+The same logo is used live in the lightbox: it's drawn onto the canvas in
+the same bottom-right position at full-size viewing time, so both the
+thumbnail-linked full image and anything screenshotted from the lightbox
+carry it, even before you've run it through this script.
 
 ## 5. Previewing locally (optional)
 
