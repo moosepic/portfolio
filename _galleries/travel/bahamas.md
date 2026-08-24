@@ -1,14 +1,17 @@
 ---
 title: "Freeport, Bahamas"
 group: travel
-order: 2
+order: 3
 description: "Managed to get to Bahamas in the fall of 2025. A much needed trip to a warm locale, and we'd never been, and we were enjoyed it a lot. Beaches are FABULOUS. I was particularly fond of the sushi restaurant that had sharks circling below the patio... Felt like a Bond villian! (no pictures of that tho)"
-cover: /assets/images/galleries/travel/bahamas/01.jpg
+cover: /assets/images/galleries/travel/bahamas/03.jpg
 images:
-  - file: /assets/images/galleries/travel/tokyo/01.jpg
-    alt: "Shinjuku at night"
-    caption: "Shinjuku, night"
-  - file: /assets/images/galleries/travel/tokyo/02.jpg
-    alt: "Yanaka side street"
-    caption: "Yanaka backstreet"
+  - file: /assets/images/galleries/travel/bahamas/03.jpg
+    alt: "Freeport Beach"
+    caption: "Freeport Beach"
+  - file: /assets/images/galleries/travel/bahamas/04.jpg
+    alt: "Snorkeling at Deadman's Reef"
+    caption: "Snorkeling at Deadman's Reef"
+  - file: /assets/images/galleries/travel/bahamas/05.jpg
+    alt: "Fishy!"
+    caption: "Fishy!"
 ---
