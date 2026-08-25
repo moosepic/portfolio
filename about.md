@@ -8,7 +8,7 @@ permalink: /about/
   <h1>Daniel Piccolo</h1>
   <figure class="about-portrait">
     <img src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Doing my best Jamiroquai (photo taken by my son)">
-    <figcaption style="font-size: 0.8em; font-style: italic;">Doing my best Jamiroquai (photo taken by my son)</figcaption>
+    <figcaption style="font-size: 0.8em; font-style: italic;">Doing my best Jamiroquai, if you don't get it, look up "Virtual Insanity" on Youtube (photo taken by my son),</figcaption>
   </figure>
   <div class="about-copy" markdown="1">
 
