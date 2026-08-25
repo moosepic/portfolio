@@ -49,4 +49,7 @@ images:
   - file: /assets/images/galleries/nature/15.jpg
     alt: "Purple"
     caption: "Purple"
+  - file: /assets/images/galleries/nature/16.jpg
+    alt: "Lily"
+    caption: "Lily"
 ---
