@@ -1,7 +1,7 @@
 ---
 title: "Abstract All the Time!"
 description: "Abstract images, that just caught my eye. I'm a weirdo. I have a lot, so this is just a sample."
-order: 23
+order: 26
 cover: /assets/images/galleries/abstract/13.jpg
 images:
   - file: /assets/images/galleries/abstract/01.jpg
@@ -73,4 +73,13 @@ images:
   - file: /assets/images/galleries/abstract/23.jpg
     alt: "After the Waves"
     caption: "After the Waves"
+  - file: /assets/images/galleries/abstract/24.jpg
+    alt: "Wet Window"
+    caption: "Wet Window"
+  - file: /assets/images/galleries/abstract/25.jpg
+    alt: "Constellation"
+    caption: "Constellation"
+  - file: /assets/images/galleries/abstract/26.jpg
+    alt: "Orbies"
+    caption: "Orbies"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Up close and personal"
 description: "I do like macro shots..."
-order: 12
+order: 14
 cover: /assets/images/galleries/macro/07.jpg
 images:
   - file: /assets/images/galleries/macro/01.jpg
@@ -40,4 +40,10 @@ images:
   - file: /assets/images/galleries/macro/04.jpg
     alt: "Bearing"
     caption: "Bearing"
+  - file: /assets/images/galleries/macro/13.jpg
+    alt: "Water on Web"
+    caption: "Water on Web"
+  - file: /assets/images/galleries/macro/14.jpg
+    alt: "Stamen"
+    caption: "Stamen"
 ---

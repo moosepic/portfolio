@@ -1,7 +1,7 @@
 ---
 title: "Objects, Re-imagined"
 description: "Normal, everyday objects in a different light. I have lots, this is just a sample"
-order: 23
+order: 25
 cover: /assets/images/galleries/objects/24.jpg
 images:
   - file: /assets/images/galleries/objects/01.jpg
@@ -73,4 +73,10 @@ images:
   - file: /assets/images/galleries/objects/38.jpg
     alt: "Drip"
     caption: "Drip"
+  - file: /assets/images/galleries/objects/39.jpg
+    alt: "Artistic Poo Bag"
+    caption: "Artistic Poo Bag"
+  - file: /assets/images/galleries/objects/38.jpg
+    alt: "Shocked Coat"
+    caption: "Shocked Coat"
 ---

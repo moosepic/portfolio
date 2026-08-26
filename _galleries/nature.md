@@ -1,7 +1,7 @@
 ---
 title: "Nature's Wonders"
 description: "Let's face it, a lot of flowers and trees!"
-order: 15
+order: 16
 cover: /assets/images/galleries/nature/07.jpg
 images:
   - file: /assets/images/galleries/nature/01.jpg
@@ -52,4 +52,7 @@ images:
   - file: /assets/images/galleries/nature/16.jpg
     alt: "Lily"
     caption: "Lily"
+  - file: /assets/images/galleries/nature/19.jpg
+    alt: "Dew Covered Lilies"
+    caption: "Dew Covered Lilies"
 ---
