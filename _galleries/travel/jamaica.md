@@ -2,7 +2,7 @@
 title: "Negril Jamaica, etc"
 group: travel
 order: 10
-description: "We had the fortune of visiting Jamaica, specifically Negril, in Spring of 2025. This was just before the hurricane. The Negril area is mostly cliff, so we didn't spent too much time on a beach. Our resort was small, almost 'boutique'. Samsara. Killer sunsets tho. Loved it. Would recommend"
+description: "We had the fortune of visiting Jamaica, specifically Negril, in Spring of 2025. This was just before the hurricane. The Negril area is mostly cliff, so we didn't spend too much time on a beach. Our resort was small, almost 'boutique'. Samsara. Killer sunsets tho. Loved it. Would recommend"
 cover: /assets/images/galleries/travel/jamaica/03.jpg
 images:
   - file: /assets/images/galleries/travel/jamaica/03.jpg
