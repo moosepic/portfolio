@@ -76,7 +76,7 @@ images:
   - file: /assets/images/galleries/objects/39.jpg
     alt: "Artistic Poo Bag"
     caption: "Artistic Poo Bag"
-  - file: /assets/images/galleries/objects/38.jpg
+  - file: /assets/images/galleries/objects/40.jpg
     alt: "Shocked Coat"
     caption: "Shocked Coat"
 ---
