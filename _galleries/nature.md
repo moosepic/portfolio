@@ -52,7 +52,7 @@ images:
   - file: /assets/images/galleries/nature/16.jpg
     alt: "Lily"
     caption: "Lily"
-  - file: /assets/images/galleries/nature/19.jpg
+  - file: /assets/images/galleries/nature/20.jpg
     alt: "Dew Covered Lilies"
     caption: "Dew Covered Lilies"
 ---
