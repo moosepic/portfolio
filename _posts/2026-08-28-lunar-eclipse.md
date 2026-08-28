@@ -1,5 +1,5 @@
 ---
-title: "Crazy Day"
+title: "Blackout and Lunar Eclipse"
 tags: [notes]
 ---
 <div class="about-copy" markdown="1">
@@ -9,13 +9,13 @@ Now, I had 2 cameras, my "real" camera (an M3 mirrorless, and I had a manual foc
 
 First the iPhone
   <figure>
-    <img src="{{ '/assets/images/assets/galleries/nature/22.jpg' | relative_url }}" alt="This is the iPhone 16 pro">
+    <img src="{{ '/assets/images/galleries/nature/22.jpg' | relative_url }}" alt="This is the iPhone 16 pro">
     <figcaption style="font-size: 0.8em; font-style: italic;">This is the iPhone 16 pro</figcaption>
   </figure>
 
 Now the Canon
   <figure>
-    <img src="{{ '/assets/images/assets/galleries/nature/23.jpg'' | relative_url }}" alt="The Canon">
+    <img src="{{ '/assets/images/galleries/nature/23.jpg'' | relative_url }}" alt="The Canon">
     <figcaption style="font-size: 0.8em; font-style: italic;">The Canon</figcaption>
   </figure>
 
