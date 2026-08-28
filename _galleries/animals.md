@@ -49,4 +49,7 @@ images:
   - file: /assets/images/galleries/animals/15.jpg
     alt: "Yeah Baby, Right there"
     caption: "Yeah Baby, Right there"
+  - file: /assets/images/galleries/animals/16.jpg
+    alt: "Emotive Shih-tzu"
+    caption: "Emotive Shih-tzu"
 ---
