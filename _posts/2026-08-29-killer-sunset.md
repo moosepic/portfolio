@@ -1,5 +1,5 @@
 ---
-title: "Blackout and Lunar Eclipse"
+title: "Killer Sunset and Camera Experiments"
 tags: [notes]
 ---
 <div class="about-copy" markdown="1">
