@@ -1,5 +1,5 @@
 ---
-title: "Asking for a frinend..."
+title: "Asking for a friend..."
 tags: [notes]
 ---
 <div class="about-copy" markdown="1">
