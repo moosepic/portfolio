@@ -1,5 +1,5 @@
 ---
-title: "Not to Many Nights Like This!"
+title: "Not too Many Nights Like This!"
 tags: [notes]
 ---
 <div class="about-copy" markdown="1">
