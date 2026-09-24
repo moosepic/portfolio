@@ -49,4 +49,7 @@ images:
   - file: /assets/images/galleries/urban/09.jpg
     alt: "Stephen's Green"
     caption: "Stephen's Green"
+  - file: /assets/images/galleries/urban/23.jpg
+    alt: "Evening in Grand Bank"
+    caption: "Evening in Grand Bank"
 ---
