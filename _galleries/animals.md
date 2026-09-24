@@ -52,4 +52,7 @@ images:
   - file: /assets/images/galleries/animals/16.jpg
     alt: "Emotive Shih-tzu"
     caption: "Emotive Shih-tzu"
+  - file: /assets/images/galleries/animals/17.jpg
+    alt: "Headless Dog in Repose"
+    caption: "Headless Dog in Repose"
 ---

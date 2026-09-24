@@ -79,4 +79,7 @@ images:
   - file: /assets/images/galleries/objects/40.jpg
     alt: "Shocked Coat"
     caption: "Shocked Coat"
+  - file: /assets/images/galleries/objects/41.jpg
+    alt: "Bone Hallway"
+    caption: "Bone Hallway"
 ---

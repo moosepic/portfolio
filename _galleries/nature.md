@@ -58,4 +58,13 @@ images:
   - file: /assets/images/galleries/nature/22.jpg
     alt: "Lunar Eclipse"
     caption: "Lunar Eclipse"
+  - file: /assets/images/galleries/nature/24.jpg
+    alt: "Obstructed Mushroom"
+    caption: "Obstructed Mushroom"
+  - file: /assets/images/galleries/nature/26.jpg
+    alt: "Dreamscape"
+    caption: "Dreamscape"
+  - file: /assets/images/galleries/nature/27.jpg
+    alt: "Moon, Clouds, Night"
+    caption: "Moon, Clouds, Night"
 ---

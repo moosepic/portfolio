@@ -16,4 +16,7 @@ images:
   - file: /assets/images/galleries/still-life/04.jpg
     alt: "Window treatment"
     caption: "Window treatment"
+  - file: /assets/images/galleries/still-life/05.jpg
+    alt: "Flower and Vase"
+    caption: "Flower and Vase"
 ---

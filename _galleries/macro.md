@@ -46,4 +46,10 @@ images:
   - file: /assets/images/galleries/macro/14.jpg
     alt: "Stamen"
     caption: "Stamen"
+  - file: /assets/images/galleries/macro/16.jpg
+    alt: "Crack in the Wall"
+    caption: "Crack in the Wall"
+  - file: /assets/images/galleries/macro/17.jpg
+    alt: "Kinda Sexual.."
+    caption: "Kinda Sexual..."
 ---

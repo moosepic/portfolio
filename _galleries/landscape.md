@@ -55,4 +55,10 @@ images:
   - file: /assets/images/galleries/landscape/09.jpg
     alt: "Boat and Launch"
     caption: "Boat and Launch"
+  - file: /assets/images/galleries/landscape/19.jpg
+    alt: "Toward Epworth"
+    caption: "Toward Epworth"
+  - file: /assets/images/galleries/landscape/20.jpg
+    alt: "Top of the World"
+    caption: "Top of the World"
 ---
