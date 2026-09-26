@@ -1,7 +1,7 @@
 ---
 title: "Still life, or lives?"
 description: "Didn't really have a good place to put these otherwise, but they're worth a show."
-order: 4
+order: 5
 cover: /assets/images/galleries/still-life/03.jpg
 images:
   - file: /assets/images/galleries/still-life/01.jpg

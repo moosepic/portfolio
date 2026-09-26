@@ -1,7 +1,7 @@
 ---
 title: "Urban and Street Shots"
 description: "Just shots about town(s) I've visited or live in."
-order: 15
+order: 16
 cover: /assets/images/galleries/urban/10.jpg
 images:
   - file: /assets/images/galleries/urban/01.jpg

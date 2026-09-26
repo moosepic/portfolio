@@ -1,7 +1,7 @@
 ---
 title: "By Land and Sea"
 description: "Land and seascapes from all over the world"
-order: 17
+order: 19
 cover: /assets/images/galleries/landscape/15.jpg
 images:
   - file: /assets/images/galleries/landscape/01.jpg

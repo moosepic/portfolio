@@ -1,7 +1,7 @@
 ---
 title: "Up close and personal"
 description: "I do like macro shots..."
-order: 14
+order: 16
 cover: /assets/images/galleries/macro/07.jpg
 images:
   - file: /assets/images/galleries/macro/01.jpg

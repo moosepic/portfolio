@@ -1,7 +1,7 @@
 ---
 title: "Lions and Bears o' My"
 description: "That's a lie. There are no lions and bears here."
-order: 15
+order: 17
 cover: /assets/images/galleries/animals/03.jpg
 images:
   - file: /assets/images/galleries/animals/01.jpg

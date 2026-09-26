@@ -1,7 +1,7 @@
 ---
 title: "Objects, Re-imagined"
 description: "Normal, everyday objects in a different light. I have lots, this is just a sample"
-order: 25
+order: 26
 cover: /assets/images/galleries/objects/24.jpg
 images:
   - file: /assets/images/galleries/objects/01.jpg

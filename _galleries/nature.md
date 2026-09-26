@@ -1,7 +1,7 @@
 ---
 title: "Nature's Wonders"
 description: "Let's face it, a lot of flowers and trees!"
-order: 17
+order: 21
 cover: /assets/images/galleries/nature/07.jpg
 images:
   - file: /assets/images/galleries/nature/01.jpg
