@@ -24,7 +24,7 @@ After living for 20 years in Toronto, I find it very fortunate to live in rural 
 
 If you are interested in any of the art and wish to buy, or license it, let me know.  Also, while I'm not a big time portrait photographer, I'm more than happy to help you out, in a pinch (often pro-bono, if I can use it in my portfolio)
 
-**Contact:** danpiccolo@gmail.com
+**Contact:** dan@piccolopics.com
 
   </div>
 </section>
