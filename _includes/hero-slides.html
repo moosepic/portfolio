@@ -1,0 +1,9 @@
+<div class="hero-slides" aria-hidden="true">
+    {% for item in site.data.hero %}
+      <img class="hero-slide"
+           style="--i: {{ forloop.index0 }}; object-position: {{ item.pos | default: 'center' }};"
+           src="{{ item.src | relative_url }}"
+           alt=""
+           {% unless forloop.first %}loading="lazy"{% endunless %}>
+    {% endfor %}
+  </div>
