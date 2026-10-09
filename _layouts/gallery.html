@@ -5,7 +5,7 @@ layout: default
   <p class="eyebrow"><a href="{{ '/portfolio/' | relative_url }}">&larr; Portfolio</a></p>
   <h1>{{ page.title }}</h1>
   {% if page.description %}<p class="gallery-description">{{ page.description }}</p>{% endif %}
-  <p style="font-style: italic">* if any of these images tickle your fancy, and you would like a print, it can be arranged, made to order and shipped from Newfoundland, Canada. Just reach out to me at dan@piccolopics.com and let me know.</p>
+  <p class="gallery-description" style="font-style: italic">* if any of these images tickle your fancy, and you would like a print, it can be arranged, made to order and shipped from Newfoundland, Canada. Just reach out to me at dan@piccolopics.com and let me know.</p>
   <div class="contact-sheet" data-gallery="{{ page.title | slugify }}" id="contactSheet" data-batch-size="24">
     {% for img in page.images %}
     <button type="button"
