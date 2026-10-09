@@ -5,7 +5,7 @@ email: "danpiccolo@gmail.com"
 # url: "" # e.g. https://www.yourdomain.com — leave blank until you add a custom domain
 # baseurl: "" # leave blank if using a custom domain; set to "/repo-name" if using the default github.io URL
 url: "https://www.piccolopics.com"
-baseurl: "/portfolio"
+baseurl: ""
 
 # Collections
 collections:
