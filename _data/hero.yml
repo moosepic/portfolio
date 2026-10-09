@@ -1,5 +1,10 @@
-- /assets/images/layout/crowd_of_feet.jpg
-- /assets/images/galleries/abstract/19.jpg
-- /assets/images/galleries/macro/07.jpg
-- /assets/images/galleries/landscape/13.jpg
-- /assets/images/galleries/portraits/21.jpg
+- src: /assets/images/layout/crowd_of_feet.jpg
+  pos: center
+- src: /assets/images/galleries/abstract/19.jpg
+  pos: center
+- src: /assets/images/galleries/macro/07.jpg
+  pos: center
+- src: /assets/images/galleries/landscape/13.jpg
+  pos: center
+- src: /assets/images/galleries/portraits/21.jpg
+  pos: center 30%

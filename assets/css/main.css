@@ -106,14 +106,14 @@ main.splash > *:not(.hero-slides) { position: relative; z-index: 1; }
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  animation: heroFade 32s infinite;
+  animation: heroFade 40s infinite;
   animation-delay: calc(var(--i) * 8s - 2s);
 }
 @keyframes heroFade {
   0%   { opacity: 0; }
-  6%   { opacity: 1; }
-  25%  { opacity: 1; }
-  31%  { opacity: 0; }
+  5%   { opacity: 1; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0; }
   100% { opacity: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
