@@ -5,6 +5,6 @@
 - src: /assets/images/galleries/macro/07.jpg
   pos: center
 - src: /assets/images/galleries/landscape/13.jpg
-  pos: center
+  pos: center 65%
 - src: /assets/images/galleries/portraits/21.jpg
-  pos: center 30%
+  pos: center 20%
