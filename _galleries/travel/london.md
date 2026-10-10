@@ -62,4 +62,10 @@ images:
   - file: /assets/images/galleries/travel/london/19.jpg
     alt: "Happy, Piccadilly Circus"
     caption: "Happy, Piccadilly Circus"
+  - file: /assets/images/galleries/travel/london/20.jpg
+    alt: "If you know, you know"
+    caption: "If you know, you know"
+  - file: /assets/images/galleries/travel/london/21.jpg
+    alt: "Eye on the Thames"
+    caption: "Eye on the Thames"
 ---

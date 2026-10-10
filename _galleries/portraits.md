@@ -1,21 +1,12 @@
 ---
 title: "Portraits"
 description: "Some portraiture. Usually candid, or silly. Definitely NOT boudoir. Got more, just a sample"
-order: 22
+order: 12
 cover: /assets/images/galleries/portraits/02.jpg
 images:
-  - file: /assets/images/galleries/portraits/04.jpg
-    alt: "Don't think you'll need that raincoat"
-    caption: "Don't think you'll need that raincoat"
   - file: /assets/images/galleries/portraits/05.jpg
     alt: "Big Ben and some other guy"
     caption: "Big Ben and some other guy"
-  - file: /assets/images/galleries/portraits/15.jpg
-    alt: "Pho!"
-    caption: "Pho!"
-  - file: /assets/images/galleries/portraits/08.jpg
-    alt: "Boxed in"
-    caption: "Boxed in"
   - file: /assets/images/galleries/portraits/09.jpg
     alt: "Appreciation of the Arts"
     caption: "Appreciation of the Arts"
@@ -25,9 +16,6 @@ images:
   - file: /assets/images/galleries/portraits/17.jpg
     alt: "She took my heart"
     caption: "She took my heart"
-  - file: /assets/images/galleries/portraits/01.jpg
-    alt: "Well framed"
-    caption: "Well framed"
   - file: /assets/images/galleries/portraits/22.jpg
     alt: "Newfoundland Girl-o-war"
     caption: "Newfoundland Girl-o-war"
@@ -43,31 +31,13 @@ images:
   - file: /assets/images/galleries/portraits/18.jpg
     alt: "Cutie pie"
     caption: "Cutie pie"
-  - file: /assets/images/galleries/portraits/10.jpg
-    alt: "Silly sons"
-    caption: "Silly sons"
-  - file: /assets/images/galleries/portraits/13.jpg
-    alt: "Ghost girl!"
-    caption: "Ghost girl!"
   - file: /assets/images/galleries/portraits/30.jpg
     alt: "Make a Wish"
     caption: "Make a Wish"
-  - file: /assets/images/galleries/portraits/28.jpg
-    alt: "I feel threatened (by the weather)"
-    caption: "I feel threatened (by the weather)"
   - file: /assets/images/galleries/portraits/24.jpg
     alt: "Golden"
     caption: "Golden"
   - file: /assets/images/galleries/portraits/31.jpg
     alt: "Surly"
     caption: "Surly"
-  - file: /assets/images/galleries/portraits/29.jpg
-    alt: "2 Places at Once"
-    caption: "2 Places at Once"
-  - file: /assets/images/galleries/portraits/27.jpg
-    alt: "Sleepin' Beauty"
-    caption: "Sleepin' Beauty"
-  - file: /assets/images/galleries/portraits/26.jpg
-    alt: "Sisters"
-    caption: "Sisters"
 ---
