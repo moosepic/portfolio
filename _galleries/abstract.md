@@ -1,9 +1,12 @@
 ---
 title: "Abstract All the Time!"
 description: "Abstract images, that just caught my eye. I'm a weirdo. I have a lot, so this is just a sample."
-order: 26
-cover: /assets/images/galleries/abstract/13.jpg
+order: 19
+cover: /assets/images/galleries/abstract/15.jpg
 images:
+  - file: /assets/images/galleries/abstract/15.jpg
+    alt: "Spiral"
+    caption: "Spiral"
   - file: /assets/images/galleries/abstract/01.jpg
     alt: "Space Virus"
     caption: "Space Virus"
@@ -19,9 +22,6 @@ images:
   - file: /assets/images/galleries/abstract/14.jpg
     alt: "Rings"
     caption: "Rings in B/W"
-  - file: /assets/images/galleries/abstract/15.jpg
-    alt: "Spiral"
-    caption: "Spiral"
   - file: /assets/images/galleries/abstract/16.jpg
     alt: "Ropes and Lens Flare"
     caption: "Ropes and Lens Flare"
@@ -43,24 +43,9 @@ images:
   - file: /assets/images/galleries/abstract/05.jpg
     alt: "Minimal Spiral"
     caption: "Minimal Spiral"
-  - file: /assets/images/galleries/abstract/06.jpg
-    alt: "Lattice"
-    caption: "Lattice"
-  - file: /assets/images/galleries/abstract/07.jpg
-    alt: "Veiny Curl"
-    caption: "Veiny Curl"
-  - file: /assets/images/galleries/abstract/08.jpg
-    alt: "Frost"
-    caption: "Frost"
   - file: /assets/images/galleries/abstract/09.jpg
     alt: "Tutu"
     caption: "Tutu"
-  - file: /assets/images/galleries/abstract/10.jpg
-    alt: "Bokah Leaves"
-    caption: "Bokah Leaves"
-  - file: /assets/images/galleries/abstract/11.jpg
-    alt: "Mineral"
-    caption: "Mineral"
   - file: /assets/images/galleries/abstract/12.jpg
     alt: "Stripes and Curves"
     caption: "Stripes and Curves"
@@ -70,12 +55,6 @@ images:
   - file: /assets/images/galleries/abstract/22.jpg
     alt: "Sand Meets Water"
     caption: "Sand Meets Water"
-  - file: /assets/images/galleries/abstract/23.jpg
-    alt: "After the Waves"
-    caption: "After the Waves"
-  - file: /assets/images/galleries/abstract/24.jpg
-    alt: "Wet Window"
-    caption: "Wet Window"
   - file: /assets/images/galleries/abstract/25.jpg
     alt: "Constellation"
     caption: "Constellation"
