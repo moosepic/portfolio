@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Still life, or lives?"
 description: "Didn't really have a good place to put these otherwise, but they're worth a show."
 order: 5
