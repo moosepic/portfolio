@@ -1,0 +1,51 @@
+---
+layout: default
+title: Journal
+---
+<section class="wrap narrow">
+  <p class="eyebrow">Journal</p>
+  <h1>Notes from the field</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <div class="post-list-heading">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+      </div>
+      {% assign excerpt_text = post.excerpt | strip_html | strip_newlines | strip %}
+      {% if excerpt_text != empty %}
+      <p class="post-list-excerpt">{{ excerpt_text | truncate: 100 }}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="Journal pages">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
+    {% else %}
+    <span class="disabled">&larr; Newer</span>
+    {% endif %}
+
+    <span class="page-numbers">
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+        <span class="current" aria-current="page">{{ page }}</span>
+        {% elsif page == 1 %}
+        <a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+        {% else %}
+        <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+    </span>
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
+    {% else %}
+    <span class="disabled">Older &rarr;</span>
+    {% endif %}
+  </nav>
+  {% endif %}
+</section>
