@@ -36,8 +36,8 @@ images:
     alt: "Life in a Leper Colony, Spinalonga, Crete"
     caption: "Life in a Leper Colony, Spinalonga, Crete"
   - file: /assets/images/galleries/travel/greece/11.jpg
-    alt: "A stick... what can I say, caught my attention, Spinalong, Crete"
-    caption: "A stick... what can I say, caught my attention, Spinalong, Crete"
+    alt: "A stick... what can I say, caught my attention, Spinalonga, Crete"
+    caption: "A stick... what can I say, caught my attention, Spinalonga, Crete"
   - file: /assets/images/galleries/travel/greece/12.jpg
     alt: "Spinalonga Leper Colony. Not a leper"
     caption: "Spinalonga Leper Colony. Not a leper"
