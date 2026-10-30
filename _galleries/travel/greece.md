@@ -9,8 +9,8 @@ images:
     alt: "Parthenon"
     caption: "Columns of the Parthenon"
   - file: /assets/images/galleries/travel/greece/02.jpg
-    alt: "View of Fira, Santorini from the volcano"
-    caption: "View of Fira, Santorini from the volcano"
+    alt: "View of Fira, Santorini from the volcano (buildings not snow up there)"
+    caption: "View of Fira, Santorini from the volcano (buildings not snow up there)"
   - file: /assets/images/galleries/travel/greece/03.jpg
     alt: "Knossos Palace"
     caption: "Knossos Palace"
