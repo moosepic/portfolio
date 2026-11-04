@@ -13,5 +13,6 @@ I have about 900 photos to filter through, but there will be a travel gallery se
     <img src="{{ '/assets/images/blog/oia_20261021_042.jpg' | relative_url }}" alt="">
     <figcaption>Oi, Santorini, Sunset</figcaption>
   </figure>
-
+  
+</div>
 `--- D`
